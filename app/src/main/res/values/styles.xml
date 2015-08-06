@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+    <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFB2F5</item>
+        <item name="colorPrimaryDark">#FFB2D9</item>
+        <item name="colorAccent">#FFA7A7</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+
+    <color name="colorP">#FFB2F5</color>
+    <color name="black">#FF000000</color>
+    <color name="whitegrey">#FFF2F2F2</color>
+    <color name="blue">#0100FF</color>
+    <color name="green">#1DDB16</color>
+    <color name="orange">#FF5E00</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#00000000</color>
+    <!-- AlertDialog text color fix thanks to Shawn Castrianni, see: http://groups.google.com/group/android-developers/browse_thread/thread/f0b34621d3a70c4b -->
+    <style name="DialogLight" parent="@android:style/Theme.Dialog">
+
+        <item name="android:windowBackground">@color/whitegrey</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
